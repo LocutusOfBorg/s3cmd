@@ -4,7 +4,6 @@ s3cmd (1.5.2-1) experimental; urgency=medium
 
   [ Matt Domsch ]
   * New upstream release.
-  * change doc file location.
   * Update watch file.
   * Update homepage location.
 
