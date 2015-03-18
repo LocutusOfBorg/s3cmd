@@ -1,9 +1,7 @@
-From 361afc19c34424ef08704afcb0b94c8374f58e87 Mon Sep 17 00:00:00 2001
-From: Mikhail Gusarov <dottedmag@dottedmag.net>
-Date: Tue, 2 Sep 2014 18:39:18 +0200
-Subject: [PATCH] Return non-zero code from 'put' command if some files failed
+Author: Mikhail Gusarov <dottedmag@dottedmag.net>
+Description: [PATCH] Return non-zero code from 'put' command if some files failed
  to upload
-
+Forwarded: https://github.com/s3tools/s3cmd/pull/507
 Debian bug: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=669002
 ---
  s3cmd | 5 ++++-

@@ -1,3 +1,7 @@
+Description: Fix manpage typos
+Forwarded: https://github.com/s3tools/s3cmd/pull/504
+Last-Update: 2015-03-18
+
 # Fix warnings catched by lintian: spelling, bare hyphen, unintended
 # 'Cache-Control' expansion as macro
 Index: s3cmd/s3cmd.1

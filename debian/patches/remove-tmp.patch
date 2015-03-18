@@ -1,11 +1,7 @@
-From f02d274d45cd46c569d39de8781dc5275e8b0cb2 Mon Sep 17 00:00:00 2001
 From: Paul Wise <pabs@debian.org>
-Date: Wed, 18 Mar 2015 12:09:30 +0100
-Subject: [PATCH] Use user home instead of tmp in examples
-
----
- README.md | 12 ++++++------
- 1 file changed, 6 insertions(+), 6 deletions(-)
+Description: Use user home instead of tmp in examples
+Forwarded: https://github.com/s3tools/s3cmd/pull/504
+Last-Update: 2015-03-18
 
 diff --git a/README.md b/README.md
 index 507b485..747c62d 100644

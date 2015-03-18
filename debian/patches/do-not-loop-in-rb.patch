@@ -1,15 +1,10 @@
-From 8f975805851603697973eb66e63b69e89d8582c0 Mon Sep 17 00:00:00 2001
-From: Mikhail Gusarov <dottedmag@dottedmag.net>
-Date: Tue, 2 Sep 2014 19:03:23 +0200
-Subject: [PATCH] Do not loop endlessly if removal of bucket content fails
+Author: Mikhail Gusarov <dottedmag@dottedmag.net>
+Description: Do not loop endlessly if removal of bucket content fails
+ Only remove contents from bucket once and then stop if
+ bucket cannot be removed due to some reason.
 
-Only remove contents from bucket once and then stop if
-bucket cannot be removed due to some reason.
-
+Forwarded: https://github.com/s3tools/s3cmd/pull/507
 Debian bug: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=750561
----
- s3cmd | 6 +++---
- 1 file changed, 3 insertions(+), 3 deletions(-)
 
 Index: s3cmd/s3cmd
 ===================================================================
