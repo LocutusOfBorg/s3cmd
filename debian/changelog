@@ -1,11 +1,13 @@
 s3cmd (1.5.2-1) experimental; urgency=medium
 
   * Adopt package (Closes: #674916)
+
   [ Matt Domsch ]
   * New upstream release.
-  * Drop patches, accepted upstream.
   * change doc file location.
   * Update watch file.
+  * Update homepage location.
+
   [ Gianfranco Costamagna ]
   * Change debian packaging to gpl-2+, to ease upstream patch forwarding.
   * Remove old scripts from rules file.
