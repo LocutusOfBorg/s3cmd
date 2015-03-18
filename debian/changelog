@@ -15,6 +15,8 @@ s3cmd (1.5.2-1) experimental; urgency=medium
   * Update std-version to 3.9.6, no changes required.
   * Use pybuild to simplify packaging style.
   * Remove s3cmd symlink.
+  * Set Python Applications Packaging Team as maintainer.
+  * Update VCS fields to git.
 
  -- Gianfranco Costamagna <costamagnagianfranco@yahoo.it>  Mon, 16 Mar 2015 11:07:21 +0100
 

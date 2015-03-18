@@ -1,2 +1,2 @@
 version=3
-opts=pgpsigurlmangle=s/$/.asc/,filenamemangle=s/.+\/?v(\d\S*)\.tar\.gz/s3cmd-$1\.tar\.gz/ https://github.com/s3tools/s3cmd/releases .*/?v(\d\S*)\.tar\.gz
+opts=pgpsigurlmangle=s/$/.asc/ https://github.com/s3tools/s3cmd/releases .*/s3cmd\-?(\d\S*)\.tar\.gz
